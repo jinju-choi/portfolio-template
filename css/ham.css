@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.hambuger {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  position: relative
+}
+.ham {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #ccc;
+  display: none;
+}
+.ham:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 8px;
+}
+.ham:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 6px;
+}

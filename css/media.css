@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:1200px){
+  .inner {
+  max-width: 900px;
+  padding: 0 30px;
+  }
+
+  #portfolio ul.list--detail li {
+    width: 48%;
+  }
+  #blog ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #blog ul li {
+    width: 100%;
+  }
+  #blog ul li::before {
+    height: 441px;
+  }
+  #contect fieldset input:nth-of-type(1) {
+    width: 100%;
+  }
+  #contect fieldset input:nth-of-type(2) {
+    width: 100%;
+  }
+}
+@media screen and (max-width:991px){
+  .inner {
+    max-width: 700px;
+  }
+  header {
+    background-color: #fff;
+  }
+  header nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  header .gnb {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    top: 32px;
+    height: 0;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  header .gnb.active {
+    height : 300px;
+  }
+  header .gnb li a {
+    display: block;
+    text-align: center;
+    color: #333;
+  }
+  header .hambuger {
+    display: block;
+  }
+  #title h2 strong {
+    font-size: 40px !important;
+  }
+  .ham {
+    display: block;
+  }
+  #about .inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #about figure {
+    width: 100%;
+  }
+  #about .rignt-box {
+    width: 100%;
+  }
+  #service ul {
+    flex-direction: column;
+  }
+  #service ul li {
+    width: 100%;
+  }
+  #portfolio ul.list--detail {
+    flex-direction: column;
+  }
+  #portfolio ul.list--detail li {
+    width: 100%;
+  }
+  #contact fieldset input:nth-of-type(1),
+  #contact fieldset input:nth-of-type(2) {
+    width: 100%;
+  }
+}
+@media screen and (max-width:768px){
+  .inner {
+    max-width: 400px;
+  }
+  span.block {
+    display: inline-block;
+  }
+  #title h2 {
+    font-size: 28px;
+  }
+  #title h2 strong {
+    font-size: 30px !important;
+  }
+  #portfolio ul.list li {
+    margin: 0 3px;
+  }
+  #portfolio ul.list li a {
+    padding: 8px 13px;
+  }
+  #blog ul li::before {
+    height: 250px; 
+  }
+  #contact ul {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+  
